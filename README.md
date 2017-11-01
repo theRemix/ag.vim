@@ -15,8 +15,13 @@ You have to first install [ag](https://github.com/ggreer/the_silver_searcher), i
 
 Vim has various ways of installing plugins, the standard way is in [the documentation](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#plugin), but most people use a plugin to manage their plugins. If you don't already have a preferred plugin manager plugin, why not try one of the following?
 - [vim-plug](https://github.com/junegunn/vim-plug#readme)
+    - add this line to `.vimrc`
+    - `Plug 'rking/ag.vim'`
 - [vim-pathogen](https://github.com/tpope/vim-pathogen#readme)
+    - `cd ~/.vim/bundle && git clone https://github.com/rking/ag.vim`
 - [Vundle.vim](https://github.com/gmarik/Vundle.vim#readme)
+    - add this line to `.vimrc`
+    - `Plugin 'mattn/emmet-vim'`
 - Or, if you don't use any sort of Vim plugin management:
 
   ```sh
